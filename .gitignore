@@ -1,0 +1,7 @@
+/.vs/
+/Debug/
+pthreadVC2.dll
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj
+stm32.*
