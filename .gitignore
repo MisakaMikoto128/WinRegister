@@ -5,3 +5,4 @@ pthreadVC2.dll
 *.vcxproj.user
 *.vcxproj
 stm32.*
+*.sln
