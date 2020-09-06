@@ -1,10 +1,12 @@
 #include "WinReg.h"
 #define debug(fmt, ...) printf(fmt, __VA_ARGS__)
 
+
 void wcharTochar(const wchar_t* wcharSrc, char* chrDst, int chrDstlength)
 {
 	WideCharToMultiByte(CP_ACP, 0, wcharSrc, -1, chrDst, chrDstlength, NULL, NULL);
 }
+
 
 bool QueryRegKey(LPCWSTR keyPath, LPCWSTR ValueName, char* Value, int valueLength)
 {
